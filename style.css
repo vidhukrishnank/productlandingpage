@@ -1,0 +1,271 @@
+body {
+   
+  
+  
+  
+}
+
+#header-img {
+  height: 4em;
+  width: 4em;
+  filter: invert(100%);
+  position: absolute;
+  clip: rect(10px 50px 42px 16px);
+  margin: auto;
+  
+  
+}
+
+h1 {
+  margin: 5px 10px 6px 55px;
+  font-size: 35px;
+  font-family: sans-serif, serif;
+  color: white;
+}
+
+#header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: black;
+  left: 0px;
+  height: 60px;
+  display: flex;
+}
+
+
+
+h2 {
+  color: white;
+  margin-top: 100px;
+  margin-left: 70px;
+  font-family: sans-serif, serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+
+#fullpage {
+  
+  display: flex;
+  flex-direction: column;
+  height: 400vh;
+  width: 100vw;
+  margin: auto auto auto -10px;
+}
+
+#page1 {
+  
+  background: url(https://images.pexels.com/photos/2736135/pexels-photo-2736135.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) center/cover;
+  width: 100vw;
+  height: 100vh;
+  
+  
+  
+}
+
+#page2 {
+  
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+#page3 {
+  
+  width: 100vw;
+  height: 100vh;
+  background: url(//images.pexels.com/photos/3921000/pexels-photo-3921000.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)center/cover 
+  
+}
+#page4 {
+  
+   background: url(https://images.pexels.com/photos/65128/pexels-photo-65128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center/cover;
+  width: 100vw;
+  height: 100vh;
+  
+  
+}
+
+#p1font {
+  
+  color: white;
+  margin: 185px 20px auto 500px;
+  font-family: sans-serif, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  
+  
+}
+@media (max-width: 600px) {
+  #p1font {
+    text-align: left;
+    margin: 200px auto;
+  }
+  
+}
+
+#feature1 {
+  
+  background: url(https://cdn.pixabay.com/photo/2015/09/02/12/45/movie-918655_960_720.jpg) center/cover;
+  height: 40vh;
+  weight: 100%;
+  top: 0px;
+  
+  
+}
+#feature2 {
+  
+  background: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center/cover;
+  weight: 100%;
+  height: 30vh;
+  
+}
+#feature3 {
+  
+  background: url(https://images.pexels.com/photos/3866658/pexels-photo-3866658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)center/cover;
+  width: 100%;
+  height: 30vh;
+}
+#p2font {
+  
+  font-size: 25px;
+  font-family: sans-serif, serif;
+  margin: 80px 30px auto 700px;
+  color: yellow;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  border-style: solid;
+  padding: 5px;
+}
+#p3font {
+ 
+  font-size: 25px;
+  font-family: sans-serif, serif;
+  margin: 60px 750px auto 40px;
+  color: yellow;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  border-style: solid;
+  padding: 10px;
+  
+}
+@media (max-width: 600px) {
+  #p2font {
+    text-align: left;
+    margin: 20px auto;
+  }
+  #p3font {
+    text-align: left;
+    margin: 20px auto;
+  }
+  
+}
+
+#p4font {
+  
+  font-family: sans-serif, serif;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+#video {
+  width: 60%;
+  height: 80%;
+  margin: 4% 20% 4% 20%;
+  
+}
+#form {
+  
+  margin: 60px;
+}
+#price {
+  
+  justify-content: space-between;
+  display: flex;
+  width: 500px;
+  height: 250px;
+  margin: 125px auto auto 650px;
+  text-align: center;
+  color: black;
+  font-size: 20px; 
+  font-weight: bold;
+  font-family: sans-serif, serif;
+  
+}
+@media (max-width: 600px) {
+  #price {
+    margin: 10px 20px auto 100px;
+    
+    
+    
+    flex-shrink: 10;
+    flex-direction: column;
+  }
+  #form {
+    
+  margin: 0px;
+}
+  
+}
+
+#price1 {
+  
+  box-shadow: 1px 1px 10px;
+  width: 240px;
+  height: 100%;
+  
+}
+#price2 {
+  
+  box-shadow: 1px 1px 10px;
+  width: 240px;
+  height: 100%;
+  
+}
+#nav-bar {
+  
+  display: flex;
+  
+  margin: auto auto auto -50px;
+  font-family: sans-serif,serif;
+  
+}
+@media (min-width: 600px) {
+  
+  #nav-bar {
+    
+    text-align: center;
+    margin: auto auto auto 700px;
+    
+  }
+  
+
+#l2 {
+  
+  padding: 20px;
+  
+}
+#l4 {
+  
+  padding: 20px;
+  
+}
+}
+
+ul#menu li{
+  display: inline;  
+}
+#l3 {
+  
+  padding: 20px;
+  
+}
+#l1 {
+  
+  padding: 20px;
+  
+}
